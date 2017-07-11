@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>by -.-特哥</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/anim.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="swiper-container">
+    	
+        <div class="swiper-wrapper">
+        	<!-- 宣传页 -->
+            <div class="swiper-slide page_1">
+				<h1>WELCOME</h1>
+				<img src="images/download.png" alt="箭头">
+            </div>
+            <!-- 简介页 -->
+            <div class="swiper-slide page_2">
+				<h2></h2>
+				<p><strong>姓名:</strong> <span><u>李特</u></span><img src="images/write.png" alt=""></p>
+				<p><strong>姓别:</strong> <span><u>男</u></span><img src="images/write.png" alt=""></p>
+				<p><strong>年龄:</strong> <span><u>21</u></span><img src="images/write.png" alt=""></p>
+				<p><strong>家乡:</strong> <span><u>承德市滦平县</u></span><img src="images/write.png" alt=""></p>
+				<p><strong>专业:</strong> <span><u>web前端</u></span><img src="images/write.png" alt=""></p>
+				<p><strong>爱好:</strong> <span><u>学习(hhh)</u></span><img src="images/write.png" alt=""></p>
+            </div>
+            <!-- 技能页 -->
+            <div class="swiper-slide page_3">
+				<h2>现在我会的</h2>
+				<ul>
+					<li>
+						<div class="page_3_left">HTML</div>
+						<div class="page_3_right">图像与超链接，表单框架，css……
+						</div>
+					</li>
+					<li>
+						<div class="page_3_left">JQuery</div>
+						<div class="page_3_right">jquery入门，选择器，简单运用……
+						</div>
+					</li>
+					<li>
+						<div class="page_3_left">H5</div>
+						<div class="page_3_right">语义化，新标签，语法……
+						</div>
+					</li>
+					<li>
+						<div class="page_3_left">CSS3</div>
+						<div class="page_3_right">			边框阴影，背景渐变，蒙版倒影，变形动画……
+						</div>
+					</li>
+					<li>
+						<div class="page_3_left">移动端</div>
+						<div class="page_3_right">
+						swiper，zepto……
+						</div>
+					</li>
+				</ul>
+            </div>
+            <!-- 作品页 -->
+            <div class="swiper-slide page_4 myworks">
+				<div class="main-left">
+					<h3>作品一</h3>
+					<p>作品介绍:音乐网页</p>
+					<p>效果:音乐播放器、轮播图</p>
+				</div>
+				<div class="main-right">
+					<figure>
+						<img src="images/index-1.png" alt="">
+					</figure>
+				</div>
+            </div>
+            <div class="swiper-slide page_5 myworks">
+				<div class="main-left">
+					<h3>作品二</h3>
+					<p>作品介绍:健康饮食网页</p>
+					<p>效果:渐变色、轮播图</p>
+				</div>
+				<div class="main-right">
+					<figure>
+						<img src="images/index-2.png" alt="">
+					</figure>
+				</div>
+            </div>
+            <div class="swiper-slide page_6 myworks">
+				<div class="main-left">
+					<h3>作品三</h3>
+					<p>作品介绍:这是啥我也不知道=.=</p>
+					<p>效果:动画效果、过渡效果</p>
+				</div>
+				<div class="main-right">
+					<figure>
+						<img src="images/index-3.png" alt="">
+					</figure>
+				</div>
+            </div>
+            <div class="swiper-slide page_7 myworks">
+				<div class="main-left">
+					<h3>作品四</h3>
+					<p>作品介绍:漫威英雄</p>
+					<p>效果:响应式、百分比布局</p>
+				</div>
+				<div class="main-right">
+					<figure>
+						<img src="images/index-4.png" alt="">
+					</figure>
+				</div>
+            </div>
+            <div class="swiper-slide page_8 myworks">
+				<div class="main-left">
+					<h3>作品五</h3>
+					<p>作品介绍:炫彩</p>
+					<p>效果:jq插件，侧边栏，dom筛选</p>
+				</div>
+				<div class="main-right">
+					<figure>
+						<img src="images/index-5.png" alt="">
+					</figure>
+				</div>
+            </div>
+            <!-- 结束页 -->
+            <div class="swiper-slide page_9">
+				<h1>谢谢大家</h1>
+				<h4>关注特哥不迷路</h4>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/animate.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        direction: 'vertical'
+    });
+</script>
+</html>
